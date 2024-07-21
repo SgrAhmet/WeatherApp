@@ -1,0 +1,11 @@
+.link{
+    font-size: 30px;
+    margin: 1rem;
+    color: rgb(175, 50, 144) ;
+    text-decoration: underline wavy hotpink;
+}
+.link:hover{
+    text-decoration: underline wavy rgb(220, 0, 110);
+    color: rgb(217, 138, 197) ;
+
+}

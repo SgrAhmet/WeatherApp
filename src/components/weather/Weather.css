@@ -1,0 +1,144 @@
+.weatherMain{
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+    /* background-image: url('https://cdn.create.vista.com/api/media/small/540906018/stock-photo-beautiful-blue-sky-white-cumulus-clouds-abstract-background-cloudscape-background'); */
+    /* background-image: url('../../imgs/dall-e.png'); */
+    background-image: url('../../imgs/snow.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+    /* background-color: red; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.weatherTop{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+}
+.weatherTop p {
+    font-size: 35px;
+    /* background-color: red; */
+    padding: .5rem;
+}
+.weatherTop .weatherForm {
+display: flex;
+flex-direction: row;
+flex-direction: column;
+/* background-color: red; */
+width: 100%;
+}
+.weatherInput{
+   
+    width: 70%;
+    background-color: #f5f5f5;
+    color: #242424;
+    padding: .15rem .5rem;
+    /* margin-top: 1rem; */
+    min-height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    line-height: 1.15;
+    box-shadow: 0px 10px 20px -18px;
+border-bottom: 2px solid #f5f5f5;
+
+  }
+  
+ 
+  
+ 
+
+.weatherInput:focus {
+border-bottom: 2px solid #5b5fc7;
+border-radius: 4px 4px 2px 2px;
+}
+
+.weatherInput:hover {
+outline: 1px solid lightgrey;
+
+}
+
+.weatherCard{
+    position: relative;
+
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-around;
+
+
+    width: 60%;
+    height: 55%;
+    border-radius: 20px;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 10rem;
+
+
+    background: transparent;
+    backdrop-filter: blur(5px);
+    
+
+
+
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+    
+    
+    
+}
+
+
+
+.weatherLeft img{
+    /* background-color: rgb(175, 175, 175); */
+    border-radius: 900px;
+    width: 250px;
+}
+.weatherRight{
+    margin-right: 2rem;
+    font-size: 25px;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.weatherRight p:nth-child(1){
+     /* color: red; */
+     font-weight: 700;
+     font-size: 35px;
+}
+
+
+
+.weatherMap{
+    border-radius: 10px;
+    
+}
+
+.weatherMapDiv{
+    width: 500px;
+    height: 250px;
+
+    position: absolute;
+    bottom:10px;
+}
+
+.weatherFlag{
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    z-index: 999;
+}

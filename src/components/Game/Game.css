@@ -1,0 +1,34 @@
+.GameMain{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.gameArea{
+
+    height: 80%;
+    width: 40%;
+       display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+}
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    font-size: 80px;
+    
+  }
+
+.grid-item:hover {
+   
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    transform: translateY(-3px);
+    transition: all .1s linear;
+  }

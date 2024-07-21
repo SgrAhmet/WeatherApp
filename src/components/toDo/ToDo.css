@@ -1,0 +1,135 @@
+.toDoMain{
+        height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.toDoDiv{
+    /* height: 60vh; */
+    width: 80vw;
+    background-color: #E0CCBE;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 2px solid #3C3633;
+}
+
+.toDoDiv form{
+    width: 100%;
+    text-align: center;
+}
+.toDoDiv form input{
+   
+        width: 80%;
+        background-color: #f5f5f5;
+        color: #242424;
+        padding: .15rem .5rem;
+        margin-top: 1rem;
+        min-height: 40px;
+        border-radius: 4px;
+        outline: none;
+        border: none;
+        line-height: 1.15;
+        box-shadow: 0px 10px 20px -18px;
+    border-bottom: 2px solid #f5f5f5;
+
+      }
+      
+     
+      
+     
+
+.toDoDiv form input:focus {
+    border-bottom: 2px solid #5b5fc7;
+    border-radius: 4px 4px 2px 2px;
+  }
+
+  .toDoDiv form input:hover {
+    outline: 1px solid lightgrey;
+  
+}
+
+.toDoDiv form button {
+    
+        font-size: 17px;
+        padding: 0.5em 2em;
+        border: transparent;
+        box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+        background: dodgerblue;
+        color: white;
+        border-radius: 4px;
+        margin-left: 1rem;
+       
+}
+
+.toDoDiv form button:hover {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+   }
+
+
+
+
+.toDoDiv form button:active {
+    transform: translate(0em, 0.2em);
+   }
+
+   .toDoDiv .toDoItem{
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    /* align-items: left; */
+    /* padding: .5rem; */
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+        border-bottom: 1px solid #3C3633;
+   }
+
+   .toDoDiv .toDoItem p{
+    font-size: 20px;
+   }
+   .toDoDiv .toDoItem input{
+    width: 25px;
+}
+   .toDoDiv .toDoItem input:hover{
+    cursor: pointer;
+   }
+   
+
+   .toDoDiv .footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1rem;
+   }
+   .toDoDiv .footer p{
+    font-size: 20px;
+   }
+
+   .toDoDiv .footer .buttons button{
+    font-size: 17px;
+ padding: 0.5em 2em;
+ border: transparent;
+ box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+ background: dodgerblue;
+ color: white;
+ border-radius: 4px;
+ margin-left: 5px;
+   }
+   .toDoDiv .footer .buttons button:hover{
+    background: rgb(2,0,36);
+ background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+   }
+   .toDoDiv .footer .buttons button:active{
+    transform: translate(0em, 0.2em);
+   }
+
+   .toDoDiv .footer .buttons button.active{
+    border: 2px solid black;
+   }
